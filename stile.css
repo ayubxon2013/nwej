@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.container{
+    width: 1108px;
+    margin: 0 auto;
+}
+
+header>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 29px;
+    list-style: none;
+}
+
+
+.button{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    gap: 29px;
+}
+
+button{
+    border-radius: 10px;
+    background-color:aqua;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+}
+
+.mi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
